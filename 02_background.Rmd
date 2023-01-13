@@ -1,14 +1,579 @@
 # Background
 
-Optional section.
+The Green Sea Urchin (Figure \@ref(fig:fig1)) is a benthic marine invertebrate with a wide geographic distribution, occurring in cool temperate circumpolar waters of the Atlantic and Pacific Oceans [@scheibling2020]. In the Pacific region, they occur from northern Washington State, North through to the Aleutian Islands, Alaska, South through Kamchatka, Russia and Hokkaido, Japan and West to the Korean Peninsula. Green Sea Urchins occur from the intertidal zone to depths of over 140 metres [@scheibling2020]. Their preferred habitat is rocky, gravel or shell substrates. Kelp and other marine algae are their principal food [@scheibling2020], and they are an important food source for sea stars, crabs, large fish, and Sea Otters (\emph{Enhydra lutris}) [@scheibling2020; @estes1995].
 
-## Note on this section
+(ref:fig1) A Green Sea Urchin (Strongylocentrotus droebachiensis) wearing an empty urchin test as camouflage. Photo courtesy of Pauline Ridings.
 
-This section can be used when it is considered necessary to add some background information to help the readers understand the nature of the issue to address (e.g., key information on the species, population, or area, or more details on the rationale for providing an answer to the request,).
-Science Response Reports are intended to be short. References to more background information may be added in the Sources of Information section.
+```{r fig1, fig.cap='(ref:fig1)', fig.pos='H'}
+knitr::include_graphics("csas-style/images/figure1.png")
+```
 
-Some references: [@francis2011, @edwards2013, @swainbenoit2015].
 
-## Description of the fishery
+Green Sea Urchins have separate sexes and are broadcast spawners. Spawning is seasonal and varies by location, occurring from February to March in BC [@strathmann1978]. The larval period ranges from 7 to 22 weeks [@strathmann1978]. In southern BC, Green Sea Urchins reach sexual maturity at a Test Diameter (TD) of about 25 mm [@waddell2002] and the minimum legal harvest size is 55 mm TD. In Alaska, these TDs correspond to 2-3 year old and 4 year old urchins, respectively [@munk1992]. Growth is variable and is dependent on food supply and environmental conditions [@foreman1974; @scheibling2020]
 
-Optional section for stock status updates, title may vary. 
+Green Sea Urchins are the target of commercial, recreational and traditional Food, Social, Ceremonial (FSC) fisheries. Recreational and FSC harvests are unknown, but believed to be minimal. The commercial harvest is hand-picked by SCUBA divers working from small vessels. Divers harvest when and where roe quality is best. The commercial fishery is managed with a minimum 55 mm TD size limit, license limitation, limited area openings, area quotas and individual quotas. Details of the management of the fishery are provided in the IFMP [@dfo2018b].
+
+BC’s Green Sea Urchin commercial fishery currently takes place in two regions of the coast: Northeast Vancouver Island, which includes PFMAs 11, 12 and 13, and Southeast Vancouver Island, which includes PFMAs 18, 19 and 20 (Figure \@ref(fig:fig2)). The two regions are assessed separately. Most previous assessments included only PFMAs 12, 13, 18 and 19. PFMAs 11 and 20 were re-opened to commercial harvest in 2016 after being closed since 2006 due to low market demand, and were included in the 2018 assessment [@dfo2018a]. Since the last stock status report, fisheries independent surveys have become limited to PFMAs 12 and 19, which are now conducted on a three-year rotation. The first year of this new rotation was 2018 and 2020 for PFMAs 12 and 19, respectively; these surveys are not conducted during the same year. Biological trends of the population and its structure will be reported from areas 12 and 19 only.
+
+(ref:fig2) Map of southern British Columbia showing the six Pacific Fisheries Management Areas (PFMAs 11, 12, 13, 18, 19 and 20) open to the Green Sea Urchin fishery. Black circles denote locations of recent surveysAnalysis and Response
+
+```{r fig2, fig.cap='(ref:fig2)', fig.pos='H'}
+knitr::include_graphics("csas-style/images/figure2.png")
+```
+
+## Stock assessment: data sources and uses
+
+Two sources of data are used in this assessment: (1) fishery-dependent data (i.e., commercial fishery data); and (2) fishery-independent data (i.e., standardized biological dive survey data). The Catch Per Unit Effort (CPUE; kg of urchins harvested per diver hour), total catch, and fishery-independent biomass (kg/m2) data are used to model harvest options. The relationship between CPUE (log) and survey-derived biomass (log) is an approximately linear, providing evidence that CPUE can be used as a biomass index [@zhang2005].The density, biomass and size distribution data collected during fishery-independent surveys are used to assess trends in the Green Sea Urchin populations within PFMAs 12 and 19. The fishery-independent density data are also used to assess stock status in the Northeast and Southeast Vancouver Island management regions. The data from both sources are presented, updated and discussed in this assessment.
+
+> ## Fishery-dependent data
+
+Catch and effort data were derived from harvest logbooks, validation logs and, prior to 1995, from sales slip data. Catch and effort data from the early years of the fishery (1987-1995) are uncertain because of the boom nature of the fishery, variable recording diligence, and different fishing strategies [@perry2003]. To address uncertainties associated with the CPUE data, the Bayesian model used to generate harvest options for this fishery incorporates larger uncertainties in catch and effort data for the developing years of the fishery, as well as random variability in CPUE. Median CPUE values with associated standard errors were chosen to represent CPUE trends because medians are more robust to outliers in effort data than means [@perry1998].
+
+@perry2002 described three periods in the history of the fishery: the developing period (1987 to 1990), the crisis period (1991 to 1993), and the rebuilding period (1994 to 2002) (Figures \@ref(fig:fig3), \@ref(fig:fig4), \@ref(fig:fig5); @dfo2018a). Landings below the Total Allowable Catch (TAC) for fishing seasons 2004-2005 to 2011-2012 (Figure \@ref(fig:fig5)) were due to low market demand and are not considered to be reflective of stock status. Markets have improved recently and the TAC was almost fully achieved in the 2017-2018 and 2018-2019 seasons (Figure \@ref(fig:fig5)). Although a slight decline in median CPUE has been observed since the 2012-13 season, overall, median CPUE in recent years has been high relative to the onset of the fishery. Trends in median CPUE between the two fishing regions have remained similar since 2017 (Figure \@ref(fig:fig4)).
+
+(ref:fig3) Total Effort (diver hours) for Green Sea Urchin harvesting in PFMAs 11, 12, 13, 18, 19 and 20 combined by commercial fishing season from the 1987-1988 fishing Season to the 2019-2020 fishing season.
+
+(ref:fig4) Median catch per unit effort (CPUE) (kg/hr) $\pm$ 1 standard error for PFMAs 11, 12 and 13 (gray stars) and 18, 19 and 20 (black diamonds) by commercial Fishing Seasons from the 1987-1988 Fishing Season to the 2019-2020 Fishing Season. In some cases, the standard errors are small and appear within the markers. Note that points are offset to improve legibility.
+
+(ref:fig5) Total landings of Green Sea Urchins (from sales slip data up to 1994, then from harvest and validations logs) and quota (Total Allowable Catch: TAC, from inception of individual quotas and dockside validation in 1995 and onwards) in metric tonnes for commercial fishing seasons 1987-1988 to 2019-2020, in PFMAs 11, 12, 13, 18, 19 and 20.
+
+```{r fig3, fig.cap='(ref:fig3)', fig.pos='H'}
+library(DBI)
+library(dplyr)
+library(dbplyr)
+library(odbc)
+library(RODBC)
+library(ggplot2)
+library(rosettafish)
+####CSAS Figure 3 - Total Effort of GSU fishing fleet by season####
+#import data and modify for plotting####
+
+logs <- odbcConnect("") # Pull from green urchin logbook table
+# figure 3
+data_effort <- sqlFetch(logs, "")
+data_effort <- as_tibble(data_effort)
+data_effort <- aggregate(dive_time ~ season, data_effort, sum)
+data_effort$Effort <- data_effort$dive_time/60
+data_effort$Season <- data_effort$season
+# transform into Season into numeric data, create a character object to label x-axis
+SeasonCharacter <- as.character(data_effort$Season)
+#SeasonCharacter
+#as.numeric(data_effort$Season)
+#data_effort$Season <- as.numeric(data_effort$Season)
+#plot data####
+#start with basic scatter plot
+figure3 <- ggplot(data_effort, aes(x = Season, y = Effort, group=1))+ geom_point(shape = 17, size = 1.5) +
+#add line to scatter plot, only possible if "Season" is turned into a numeric variable (above)
+  geom_line() +
+#add original "Season" labels back onto the X-axis, only possible if you create an character object of "Season"
+ #scale_x_continuous(breaks = seq(length(data_effort$Season)),labels= SeasonCharacter) +
+    ylab(en2fr("Effort(Diver hrs.)",FALSE)) + xlab(en2fr("Fishing season",FALSE)) +
+#polish plot####
+  theme_classic()+theme(axis.title.x = element_text(size = 10)) +  theme(axis.title.y = element_text(size = 10)) + theme(axis.text.x = element_text(angle = 45, hjust = 1))
+figure3
+```
+
+
+```{r fig4, fig.cap='(ref:fig4)', fig.pos='H'}
+library(xlsx)
+library(ggplot2)
+#get data
+data_CPUE <- read.xlsx("data/LogData_CSASFig3-5.xlsx", sheetIndex = "CPUEbyPFMA") 
+figure4 <- ggplot(data_CPUE,
+                  #plot x = Season, y = MedianCPUE
+                  aes(x = Season, y = MedianCPUE)) +
+  #make PFMA categorical data points
+  geom_point(aes(color = PFMA, shape = PFMA), size = 1.5) +
+  #create error bars
+  geom_errorbar(aes(ymin = MedianCPUE - SEMedianCPUE, ymax = MedianCPUE + SEMedianCPUE, color = PFMA), width = 0.5) +
+  #rename labels
+  labs(x = "Fishing Season", y = "CPUE (median kg/hr)") +
+  #shape and colour of data points
+  scale_shape_manual(values=c(8,9)) + scale_color_manual(values = c("gray60", "black")) +
+  theme_classic() + theme(axis.title.x = element_text(size = 10)) +  
+                    theme(axis.title.y = element_text(size = 10)) + 
+                    theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  theme(legend.position = c(0.87,0.25))
+figure4
+```
+
+\clearpage
+\newpage
+
+```{r fig5, fig.cap='(ref:fig5)', fig.pos='H'}
+data_Quota <- read.xlsx("data/LogData_CSASFig3-5.xlsx", sheetIndex = "TotalLandingsQuota")
+#create plot
+figure5 <- ggplot(data_Quota, aes(fill=Landing_Quota, y=Tonnes, x=Season)) +
+  geom_bar(position="dodge", stat="identity") + scale_fill_manual(values = c("gray75", "black")) +
+#polish plot
+theme_classic() + theme(legend.title = element_blank()) + ylab(Tonnes ~ ('metric')) + xlab("Fishing season") + theme(axis.title.x = element_text(size = 10)) +  theme(axis.title.y = element_text(size = 10)) + theme(axis.text.x = element_text(angle = 45, hjust = 1))+ theme(legend.position = c(0.9, 0.9))
+figure5
+```
+
+
+> ## Fishery-independent data
+Fishery-independent dive surveys have been conducted jointly by the Department of Fisheries and Oceans Canada (DFO), the West Coast Green Urchin Association (WCGUA)[^1] and more recently, the Pacific Urchin Harvesters Association (PUHA) and the A-Tlegay Nations. The main objective of the surveys is to monitor Green Sea Urchin populations in the areas on BC’s coast that are open to commercial harvest. See @dfo2014 and @waddell2010 for detailed descriptions of the survey protocol.
+
+[^1]: In 2015 the WCGUA dissolved and members joined the Pacific Urchin Harvesters Association (PUHA).
+
+The longest time series of surveys has been conducted in Queen Charlotte Strait, in PFMA 12, on Northeast Vancouver Island, since 1995 [@waddell1997; @waddell2002; @waddell2005; @waddell2006; @waddell2007; @waddell2012] (Figure \@ref(fig:fig2)). The survey area in Haro Strait, in PFMA 19 on Southeast Vancouver Island has been surveyed since 2008 [@waddell2017] (Figure \@ref(fig:fig2)). Since the last stock status update [@dfo2018a], fishery-independent surveys were conducted in PFMA 12 (September 2018) and PFMA 19 (February 2020).
+
+Mean densities and their associated confidence bounds were estimated from survey data using the Green Sea Urchin Analysis Program (GUAP) [@lochead2015]. The individual weights of measured urchins were estimated from an allometric relationship that was developed from data collected from the northeast and southeast regions of Vancouver Island during surveys from 1996 to 2010 [@lochead2015]:
+
+From 2002 to 2010, biological samples were collected during the surveys and provided length-weight data. For these years, parameter values were estimated separately for each survey using data from biological samples taken that year [@waddell2005; @waddell2006; @waddell2007; @waddell2012].
+
+Biological sampling was discontinued in 2011.All available length-weight data were pooled to estimate the allometric parameters for surveys where no length-weight data were collected. The sample size of the pooled data was 3706, from 69 survey/index site/year combinations conducted in areas open to commercial harvest (PFMAs 12, 18 and 19). The corresponding mean weight-at-length was estimated using the equation for the mean of a lognormal distribution [@gelman2004]:
+ 
+
+
+\begin{large}
+
+$$ \overline{W} = exp\left(-6.866 + 2.728 * log(TD) + \frac{0.160^2}{2}\right) $$\par
+
+\end{large}
+
+
+or,
+
+\begin{large}
+
+$$\overline{W} = 0.001042*TD^{2.728}*1.013$$\par
+
+\end{large}
+
+For each transect, the mean weight and proportion of legal- (TD $\ge$ 55mm) and sublegal-sized (TD $\le$ 55mm) urchins were estimated from TD measurements recorded in the measured quadrats (see survey protocol; @dfo2014; @waddell2010). These means were then applied to urchins from the other quadrats. Based on this analysis, the density and biomass could be estimated for both legal- and sublegal-sized urchins, for each transect
+
+As described in @lochead2015, the ratio estimator [@cochran1977] was applied to abundance estimates from individual transects to generate estimates of mean population and biomass density, and bootstrapping [@efron1993] was used to generate confidence bounds on the estimated mean densities.
+
+## Trends in populations and population structure: PFMAs 12 and 19
+
+PFMA 12 was surveyed annually or biennially from 1995 to 2018 and as of 2018 it is being surveyed on a triennial basis. Since the initial three surveys in 1995, 1996 and 1997, legal- and sublegal-sized urchin biomass and densities within PFMA 12 have increased by approximately a factor of three up to 2008. Since 2008, they have remained relatively stable (Figure \@ref(fig:fig6)). Legal-sized density ranged from 0.9 $\pm$ 0.2 (mean $\pm$ SE) to 1.4 $\pm$ 0.3 urchins/m$^{2}$ (mean $\pm$ SE) in 1995 through 1997, increasing to between 3.5 $\pm$ 0.5 urchins/m$^{2}$ (mean $\pm$ SE) and 4.0 $\pm$ 0.7 urchins/m$^{2}$ (mean $\pm$ SE) in 2012 to 2018. Since 2008, legal-sized densities have remained above 3.2 urchins/m$^{2}$. Sublegal-sized population density ranged from 1.1 $\pm$ 0.3 (mean $\pm$ SE) urchins/m$^{2}$ to 2.1 $\pm$ 0.5 (mean $\pm$ SE) urchins/m$^{2}$ in 1995 through 1997, and then increased in 2012 to 2018 when they ranged from 6.0 $\pm$ 1.1 (mean $\pm$ SE) urchins/m$^{2}$ to 8.1 $\pm$ 1.3 (mean $\pm$ SE) urchins/m$^{2}$. In general, sublegal-sized densities have varied more than legal-sized densities since 2008. Legal-sized biomass ranged from 93.6 $\pm$ 18.1 (mean $\pm$ SE) g/m$^{2}$ to 116.8 $\pm$ 35.7 (mean $\pm$ SE) g/m$^{2}$ in 1995 through 1997, and increased to a range of 320.6 $\pm$ 64.8 g/m$^{2}$ (mean $\pm$ SE) and 482.0 $\pm$ 144.1 (mean $\pm$ SE) g/m$^{2}$ in 2012 through 2018. Sublegal-sized biomass ranged from 43.3 $\pm$ 11.1 (mean $\pm$ SE) g/m$^{2}$ to 70.1 $\pm$ 19.0 (mean $\pm$ SE) g/m$^{2}$ in 1995 through 1997 and increased to a range of 226.1 $\pm$ 43.6 (mean $\pm$ SE) g/m$^{2}$ and 216.0 $\pm$ 50.2 (mean $\pm$ SE) from 2016 to 2018. The estimated mean TD was relatively stable at around 50 mm from 2006 to 2012, decreased slightly to 47 mm in 2014 and 2016, but increased again in 2018 with a mean of 56.8 $\pm$ 0.66 (mean $\pm$ SE) mm (Figure \@ref(fig:fig6)).
+
+Transects in PFMA 12 are separated into three sub-locations: Stubbs Island, Plumper Islands and Stephenson Islets. Stubbs and Plumper Islands are in a research closure, and therefore the four transects within each of those sub-locations act as unfished controls, whereas the ten transects at Stephenson Islets are within an area where commercial harvest is permitted. There are no clear trends between densities at fished versus unfished sites (Figure \@ref(fig:fig7)), suggesting factors other than fishing may be affecting biomass trends in the area.
+
+Surveys were conducted in PFMA 19 from 2008 to 2016 and in 2020 (Figure \@ref(fig:fig8)). Similar to PFMA 12, these surveys will continue on a triennial basis that started in 2020. Densities for legal-sized urchins decreased from 2.4 $\pm$ 0.6 (mean $\pm$ SE) urchins/m$^{2}$ in 2008 to 0.9 $\pm$ 0.3 (mean $\pm$ SE) urchins/m$^{2}$ in 2009 and then ranged between 1.3 and 3.6 urchins/m$^{2}$ from 2012 through 2016. In 2020, density increased to 4.4 $\pm$ 0.57 (mean $\pm$ SE) urchins/m$^{2}$. The density of sublegal-sized urchins increased from 0.5 $\pm$ 0.0 (mean $\pm$ SE) urchins/m$^{2}$ in 2009 to a peak of 3.1 $\pm$ 1.3 (mean $\pm$ SE) urchins/m$^{2}$ in 2020. Since 2010, densities have been greater than 1.3 urchins/m$^{2}$. The biomass of legal-sized urchins followed a similar trend dropping from 260.8 g/m$^{2}$ (SE 89.6) in 2008 to 109.1 $\pm$ 50.6 (mean $\pm$ SE) g/m$^{2}$ in 2009, but increased to 425.6 $\pm$ 78.8 (mean $\pm$ SE) g/m$^{2}$ in 2020 (Figure \@ref(fig:fig8)). Since 2010, biomass has steadily increased and remained greater than 137 g/m$^{2}$. Sublegal-sized biomass densities followed a similar trend, with a six fold increase from 14.0 $\pm$ 3.4 (mean $\pm$ SE) g/m$^{2}$ in 2009 to a peak of 106.1 $\pm$ 44 (mean $\pm$ SE) g/m$^{2}$ in 2020, but some variability did occur as it decreased to 34.6 $\pm$ 7.9 (mean $\pm$ SE) g/m$^{2}$ in 2016 (Figure \@ref(fig:fig8)). The mean TD remained at 59 mm in 2008 and 2009 but decreased to 53, 54 and 53 mm through 2012, 2014 and 2016, respectively. Similar to PFMA 12, mean TD increased in 2020 to 56.1 mm (Figure \@ref(fig:fig8)).
+
+A reliable method to age Green Sea Urchins has not yet been developed. The growth-band aging method used in other echinoids is unreliable in this species [@russell2000]. Therefore, population structure continues to be inferred by examining size distributions. Size frequency distributions for all years in all PFMAs show a broad range of test diameters, suggesting a wide range of age classes are likely represented (Figure \@ref(fig:fig9) and \@ref(fig:fig10)). In most years, the distribution of size classes is bimodal with one small peak under 25 mm TD and another larger peak that ranges in the 40-70 mm TD range.
+
+(ref:fig6) The estimated mean ($\pm$ 1 standard error) of legal ($\ge$ 55 TD mm) and sublegal (<55 TD mm) sized, (a), biomass (g/m$^{2}$) and, (b), density (no. urchins/m$^{2}$), as well as immature (<25 TD mm), (c), biomass and (d) density, and (e), test diameters of Green Sea Urchins in PFMA 12 from fall, fishery-independent dive surveys. In some cases, the standard errors are small and appear within the markers. Note that points are offset to improve legibility.
+
+(ref:fig7) The estimated mean biomass (g/m$^{2}$; $\pm$ 1 standard error) of, (a), legal- ($\ge$ 55 TD mm) and, (b), sublegal-sized (<55 TD mm) Green Sea Urchins in the three sub-locations of surveyed in the PFMA 12 during fall, fishery-independent dive surveys. The legend is above (a) and only one transect was completed at Plumper Island in 2004 so data are not shown. Note that points are offset to improve legibility.
+
+(ref:fig8) The estimated mean ($\pm$ 1 standard error) of legal ($\ge$ 55 TD mm) and sublegal (<55 TD mm) sized, (a), biomass (g/m$^{2}$) and, (b), density (no. urchins/m$^{2}$), as well as immature (<25 TD mm), (c), biomass and (d) density, and (e), test diameter of Green Sea Urchins in PFMA 19 from spring, fishery-independent dive surveys. In some cases, the standard errors are small and appear within the markers.
+
+(ref:fig9) Size frequency distributions of Green Sea Urchin measured (test diameter in mm) during the fishery-independent dive surveys in PFMA 12 from 2012, 2014, 2016, and 2018. The dashed lines denote the minimum legal commercial harvest size of 55 TD mm; n = the number of urchins measured in each respective year.
+
+(ref:fig10) Size frequency distributions of Green Sea Urchin measured (test diameter in mm) during fishery-independent surveys in PFMA 19 from 2012, 2014, 2016, and 2020. The dashed lines denote the minimum legal commercial harvest size of 55 TD mm; n = the number of urchins measured in each respective year.
+
+```{r fig6, fig.cap='(ref:fig6)', fig.pos='H', fig.asp=1}
+#will add these packages to yaml?? 
+library(ggplot2)
+library(xlsx)
+library(ggpubr) 
+library(rosettafish)
+#load data
+data_BiomassLegalSublegal_12 <- read.xlsx("data/fig678_density_biomass.xlsx", sheetIndex = "Fig6a-Bio_LS_12")
+data_DensityLegalSublegal_12 <- read.xlsx("data/fig678_density_biomass.xlsx", sheetIndex = "Fig6b-Den_LS_12")
+data_BiomassImmature_12 <- read.xlsx("data/fig678_density_biomass.xlsx", sheetIndex = "Fig6cd-DenBio_Im_12")
+data_DensityImmature_12 <- read.xlsx("data/fig678_density_biomass.xlsx", sheetIndex = "Fig6cd-DenBio_Im_12")
+data_TDmean_12 <- read.xlsx("data/fig678_density_biomass.xlsx", sheetIndex = "Fig6e-12_TD")
+#create error bar plot
+  #### Mean biomass GSU Legal Sublegal GSU PLOT ####
+p24 <- ggplot(data_BiomassLegalSublegal_12, aes(x = Year, y = Biomass_gm2, shape = SizeClass, color= SizeClass)) +
+  geom_errorbar(
+    aes(ymin = Biomass_gm2 - StErr_gm2, ymax = Biomass_gm2 + StErr_gm2),
+    size = 0.325, width = 0.375,position = position_dodge(width = 0.5)) + geom_point(aes(shape = SizeClass),size = 1.5,position = position_dodge(width = 0.5)) + scale_shape_manual(values=c(8,9)) + scale_color_manual(values = c("gray60", "black")) +
+#polish error bar plot
+ theme_classic()  +  ylab(en2fr(Biomass ~ ('g'/m ^ {"2"}),FALSE)) + xlab(en2fr("Year",FALSE)) + theme(axis.title.x = element_text(size = 10)) +  theme(axis.title.y = element_text(size = 10)) + theme(legend.text = element_text(size =10)) + theme(legend.direction = "horizontal") + theme(legend.position=c(0.5,1)) + theme(legend.title = element_blank())
+#### Mean Density GSU Legal Sublegal GSU PLOT####
+p26 <- ggplot(data_DensityLegalSublegal_12, aes(x = Year, y =PopSpatial, shape = SizeClass, color= SizeClass)) +
+  geom_errorbar(
+    aes(ymin = PopSpatial - StErr, ymax = PopSpatial + StErr),
+    size = 0.325, width = 0.375,position = position_dodge(width = 0.5)
+  ) + geom_point(aes(shape = SizeClass),size = 1.5,position = position_dodge(width = 0.5)) + scale_shape_manual(values=c(8,9)) + scale_color_manual(values = c("gray60", "black")) +
+#polish error bar plot and remove legend
+theme_classic() + ylab(en2fr(Density ~ ('no. urchins'/m ^ {"2"}),FALSE)) + xlab(en2fr("Year",FALSE)) + theme(axis.title.x = element_text(size = 10)) +  theme(axis.title.y = element_text(size = 10)) + theme(legend.position = "none")
+####Mean biomass Immature GSU PLOT####
+p28 <- ggplot(data_BiomassImmature_12, aes(x = Year, y = Biomass_gm2)) +
+  geom_errorbar(
+    aes(ymin = Biomass_gm2 - StErr_gm2, ymax = Biomass_gm2 + StErr_gm2),
+    size = 0.325, width = 0.375) + geom_point(size = 1.5, shape = 12) +
+#polish error bar plot
+ theme_classic() + ylab(en2fr(Biomass ~ ('g'/m ^ {"2"}),FALSE)) + xlab(en2fr("Year",FALSE)) + theme(axis.title.x = element_text(size = 10)) +  theme(axis.title.y = element_text(size = 10))+ ggtitle(label= "Immature")+ theme(plot.title = element_text(size = 10))+ theme(plot.title = element_text(hjust = 0.5))
+####Mean density Immature GSU PLOT####
+p30 <- ggplot(data_DensityImmature_12, aes(x = Year, y = PopSpatial)) +
+  geom_errorbar(
+    aes(ymin = PopSpatial - StErr, ymax = PopSpatial + StErr),
+    size = 0.325, width = 0.375) + geom_point(size = 1.5, shape = 12) +
+#polish error bar plot
+ theme_classic()  +  ylab(en2fr(Density ~ ('no. urchins'/m ^ {"2"}),FALSE)) + xlab(en2fr("Year",FALSE)) + theme(axis.title.x = element_text(size = 10)) +  theme(axis.title.y = element_text(size = 10)) + theme(legend.position = "none")
+#### Mean test diameter PLOT####
+p33 <- ggplot(data_TDmean_12 , aes(x = Year, y = AvgOfDiameter)) +
+  geom_errorbar(
+    aes(ymin = AvgOfDiameter - TD_StErr, ymax = AvgOfDiameter + TD_StErr),
+    size = 0.325, width = 0.375) + geom_point(size = 1.5, shape = 1) +
+#polish error bar plot
+ theme_classic()  +  ylab(en2fr("Test diameter(mm)",FALSE)) + xlab(en2fr("Year",FALSE)) + theme(axis.title.x = element_text(size = 10)) +  theme(axis.title.y = element_text(size = 10)) + theme(legend.position = "none")
+# Final figures are ####
+# 24 26 28 30 33
+Biodata_PFMA12_CSASFig6 <- ggarrange(p24,p26,p28,p30,p33,labels = c("(a)","(b)","(c)","(d)","(e)"),font.label = list(size = 10),label.y= 0.1, align = c("hv"),ncol = 2,nrow = 3)
+Biodata_PFMA12_CSASFig6
+```
+
+
+```{r fig7, fig.cap='(ref:fig7)', fig.pos='H', fig.asp=1}
+#load neeeded packages
+library(ggplot2)
+library(xlsx)
+library(ggpubr)
+library(wesanderson)
+#Load data
+data_BiomassSLegal_19bySite <- read.xlsx("data/fig678_density_biomass.xlsx", sheetIndex = "Fig7a-BioSite_L_12")
+data_BiomassSLegal_19bySite$SubSampleLocation <- factor(data_BiomassSLegal_19bySite$SubSampleLocation, levels = c("","",""))
+data_BiomassSSublegal_19bySite <- read.xlsx("data/fig678_density_biomass.xlsx", sheetIndex = "Fig7b-BioSite_S_12")
+data_BiomassSSublegal_19bySite$SubSampleLocation <- factor(data_BiomassSSublegal_19bySite$SubSampleLocation, levels = c("","",""))
+#Legal GSU error bar plot
+p42 <- ggplot(data_BiomassSLegal_19bySite, aes(x = Year, y = Biomass_gm2, shape = SubSampleLocation, color= SubSampleLocation)) + geom_errorbar(aes(ymin = Biomass_gm2 - StErr_gm2, ymax = Biomass_gm2 + StErr_gm2),
+    size = 0.325, width = 0.375,position = position_dodge(width = 0.5)) + geom_point(aes(shape = SubSampleLocation),size = 1.5,position = position_dodge(width = 0.5))+scale_shape_manual(values=c(19,2,15)) + scale_color_manual(values=wes_palette(name="Zissou1")) +
+# Change and format axes titles
+theme_classic()  +  ylab(Biomass ~ ('g'/m ^ {"2"})) + xlab("Year") + theme(axis.title.x = element_text(size = 10)) +  theme(axis.title.y = element_text(size = 10)) +
+# move legend and format it
+theme(legend.text = element_text(size =10)) + theme(legend.direction = "horizontal") + theme(legend.position=c(0.5,1)) + theme(legend.title = element_blank())
+####Sublegal GSU Mean biomass Sublegal by Site PFMA 12 ####
+#Legal GSU error bar plot
+p46 <- ggplot(data_BiomassSSublegal_19bySite, aes(x = Year, y = Biomass_gm2, shape = SubSampleLocation, color= SubSampleLocation)) + geom_errorbar(aes(ymin = Biomass_gm2 - StErr_gm2, ymax = Biomass_gm2 + StErr_gm2),                                                                                                                                                       size = 0.325, width = 0.375,position = position_dodge(width = 0.5)) + geom_point(aes(shape = SubSampleLocation),size = 1.5,position = position_dodge(width = 0.5))+scale_shape_manual(values=c(19,2,15)) + scale_color_manual(values=wes_palette(name="Zissou1")) +
+# Change and format axes titles
+theme_classic()  +  ylab(Biomass ~ ('g'/m ^ {"2"})) + xlab("Year") + theme(axis.title.x = element_text(size = 10)) +  theme(axis.title.y = element_text(size = 10)) +
+# move legend and format it
+theme(legend.position = "none")
+#Combine into one figure
+BiomassbySite_PFMA12_Fig7 <- ggarrange(p42,p46, labels = c("(a) Legal","(b) Sublegal"),font.label = list(size = 10),label.y= 0.05,align = c("hv"),ncol = 1,nrow = 2)
+BiomassbySite_PFMA12_Fig7
+# save combined plot as pdf figure
+# ggsave("Biodata_PFMA12bySite_CSASFig7.pdf", width = 6.35, height = 9, dpi = 600)
+```
+
+```{r fig8, fig.cap='(ref:fig8)', fig.pos='H', fig.asp=1}
+library(ggplot2)
+library(xlsx)
+library(ggpubr)
+data_BiomassLegalSublegal_19 <- read.xlsx("data/fig678_density_biomass.xlsx", sheetIndex = "Fig8a-Bio_LS_19")
+data_DensityLegalSublegal_19 <- read.xlsx("data/fig678_density_biomass.xlsx", sheetIndex = "Fig8b-Den_LS_19")
+data_BiomassImmature_19 <- read.xlsx("data/fig678_density_biomass.xlsx", sheetIndex = "Fig8cd-DenBio_Im_19")
+data_DensityImmature_19 <- read.xlsx("data/fig678_density_biomass.xlsx", sheetIndex = "Fig8cd-DenBio_Im_19")
+data_TDmean_19 <- read.xlsx("data/fig678_density_biomass.xlsx", sheetIndex = "Fig8e-19_TD")
+#create error bar plot
+p12 <- ggplot(data_BiomassLegalSublegal_19, aes(x = Year, y = Biomass_gm2, shape = SizeClass, color= SizeClass)) +
+  geom_errorbar(
+    aes(ymin = Biomass_gm2 - StErr_gm2, ymax = Biomass_gm2 + StErr_gm2),
+    size = 0.325, width = 0.375,position = position_dodge(width = 0.5)) + geom_point(aes(shape = SizeClass),
+                 size = 1.5,position = position_dodge(width = 0.5)) + scale_shape_manual(values=c(8,9)) + scale_color_manual(values = c("gray60", "black"))+
+#polish error bar plot
+ theme_classic()  +  ylab(en2fr(Biomass ~ ('g'/m ^ {"2"}),FALSE)) + xlab(en2fr("Year",FALSE)) + theme(axis.title.x = element_text(size = 10)) +  theme(axis.title.y = element_text(size = 10)) +
+# move legend into plot
+theme(legend.text = element_text(size =10)) + theme(legend.direction = "horizontal") + theme(legend.position=c(0.5,1)) + theme(legend.title = element_blank())
+#### Mean Density GSU Legal Sublegal GSU ####
+p15 <- ggplot(data_DensityLegalSublegal_19, aes(x = Year, y =PopSpatial, shape = SizeClass, color= SizeClass)) +
+  geom_errorbar(
+    aes(ymin = PopSpatial - StErr, ymax = PopSpatial + StErr),
+    size = 0.325, width = 0.375,position = position_dodge(width = 0.5)
+  ) + geom_point(aes(shape = SizeClass),size = 1.5,position = position_dodge(width = 0.5)) + scale_shape_manual(values=c(8,9)) + scale_color_manual(values = c("gray60", "black")) +
+#polish error bar plot
+theme_classic()  +  ylab(en2fr(Density ~ ('no. urchins'/m ^ {"2"}),FALSE)) + xlab(en2fr("Year",FALSE)) + theme(axis.title.x = element_text(size = 10)) +  theme(axis.title.y = element_text(size = 10)) +
+# move legend into plot
+theme(legend.position = "none")
+####Mean biomass Immature GSU####
+p18 <- ggplot(data_BiomassImmature_19, aes(x = Year, y = Biomass_gm2)) +
+  geom_errorbar(
+    aes(ymin = Biomass_gm2 - StErr_gm2, ymax = Biomass_gm2 + StErr_gm2),
+    size = 0.325, width = 0.375) + geom_point(size = 1.5, shape = 12) +
+#polish error bar plot
+theme_classic() +  ylab(Biomass ~ ('g'/m ^ {"2"})) + xlab("Year") + theme(axis.title.x = element_text(size = 10)) + theme(axis.title.y = element_text(size = 10)) + ggtitle(label= en2fr("Immature",FALSE)) + theme(plot.title = element_text(size = 10))+ theme(plot.title = element_text(hjust = 0.5)) +
+# move legend into plot
+theme(legend.text = element_text(size = 8)) + theme(legend.position=c(0.5,1))
+# save plot, remove # in front of ggsave to do so
+#ggsave("Biomass_Immature_PFMA19.pdf", width = 3.25, height = 1.75, dpi = 600)
+####Mean density Immature GSU####
+p20 <- ggplot(data_DensityImmature_19 , aes(x =Year, y = PopSpatial)) +
+  geom_errorbar(
+    aes(ymin = PopSpatial - StErr, ymax = PopSpatial + StErr),
+    size = 0.325, width = 0.375) + geom_point(size = 1.5, shape = 12) +
+#polish error bar plot
+ theme_classic()  +  ylab(en2fr(Density ~ ('no. urchins'/m ^ {"2"}),FALSE)) + xlab(en2fr("Year",FALSE)) + theme(axis.title.x = element_text(size = 10)) +  theme(axis.title.y = element_text(size = 10)) + theme(legend.position = "none")
+#### Mean test diameter ####
+p22 <- ggplot(data_TDmean_19 , aes(x = Year, y = AvgOfDiameter)) +
+  geom_errorbar(
+    aes(ymin = AvgOfDiameter - TD_StErr, ymax = AvgOfDiameter + TD_StErr),
+    size = 0.325, width = 0.375) + geom_point(size = 1.5, shape = 1) +
+#polish error bar plot
+theme_classic()  +  ylab(en2fr("Test diameter" ~ '(mm)',FALSE)) + xlab(en2fr("Year",FALSE)) + theme(axis.title.x = element_text(size = 10)) +  theme(axis.title.y = element_text(size = 10))
+# save plot, remove # in front of ggsave to do so
+#ggsave("Mean TD_PFMA19.pdf", width = 3.25, height = 1.95, dpi = 600)
+# Final figures are ####
+# p12 p15 p18 p20 p22
+# Combine final figures into one ####
+Biodata_PFMA19_CSASFig8 <- ggarrange(p12,p15,p18,p20,p22,labels = c("(a)","(b)","(c)","(d)","(e)"),font.label = list(size = 10),label.y= 0.1,align = c("hv"),ncol = 2,nrow = 3)
+Biodata_PFMA19_CSASFig8
+```
+
+```{r fig9, fig.cap='(ref:fig9)', fig.pos='H', fig.asp=1}
+library(RODBC)
+library(dplyr)
+library(plyr)
+inMDB <- odbcConnect("")
+Headers <- sqlFetch(inMDB, "")
+Density <- sqlFetch(inMDB, "")
+SF <- sqlFetch(inMDB, "")
+odbcCloseAll()
+diameters <- inner_join(Headers, SF, by = c("Key" = "HKey")) %>% 
+  filter(StatArea == 12, Year %in% c(2012, 2014, 2016, 2018)) %>% 
+  select(Diameter, Year)
+  GSU_TD_Area12_percent <-
+    ggplot(diameters, aes(x = Diameter)) + xlim(0, 100) +
+    geom_histogram(
+      aes(y = stat(density)),
+      binwidth = 1,
+      colour = "black",
+      fill = "gray95",
+      size = 0.025
+    ) +
+    scale_y_continuous(labels = scales::percent_format(accuracy = 0.5, suffix = "")) + geom_vline(
+      xintercept = 55,
+      linetype = "dashed",
+      color = "black",
+      size = 0.5
+    ) + facet_wrap(~ Year, nrow = 4)
+  #### Histogram theme ####
+  UrchinHistoTheme <-
+    theme(
+      panel.grid = element_blank(),
+      panel.background = element_rect(fill = "white"),
+      axis.line.y.left = element_line(colour = "black", size = 0.1),
+      axis.line.x.bottom = element_line(colour = "black", size = 0.1),
+      panel.border = element_rect(
+        colour = "black",
+        fill = NA,
+        size = 0.1
+      )
+    ) + theme(
+      strip.text.x = element_text(size = 10),
+      strip.background.x = element_rect(colour = "black", fill = "gray95")
+    ) + theme(plot.title = element_text(hjust = 0.5)) +
+    theme(axis.text = element_text(size = 10)) +
+    theme(axis.title = element_text(size = 10)) +
+    theme(axis.title.x = element_text(size = 10) +
+            theme(axis.title.y = element_text(size = 10))) +
+    theme(aspect.ratio = 0.45)
+  
+  #### calculating n for each facet ####
+  #summarize sample size (n) for each facet, i.e. Year
+  Nlabel <-
+    ddply(.data = diameters,
+          .(Year),
+          summarize,
+          n = paste("n =", length(Diameter)))
+ 
+  #### Final plot ####
+  GSU_TD_Area12_percent_polish <-
+    GSU_TD_Area12_percent + UrchinHistoTheme + ggtitle(en2fr("PFMA 12",FALSE)) +  labs(x = en2fr("Test Diameter (mm)",FALSE), y = en2fr("Frequency (%)",FALSE)) + theme(plot.title = element_text(hjust = 0.5)) + theme(axis.text = element_text(size = 10)) + theme(axis.title = element_text(size = 10)) + theme(axis.title.x = element_text(size = 10) + theme(axis.title.y = element_text(size = 10))) + geom_text(
+      data = Nlabel,
+      aes(x = 90, y = Inf, label = n),
+      size = 3,
+      colour = "black",
+      inherit.aes = FALSE,
+      parse = FALSE,
+      vjust = 1.5
+    )
+  GSU_TD_Area12_percent_polish
+```
+\newpage
+
+```{r fig10, fig.cap='(ref:fig10)', fig.pos='H', fig.asp=1}
+require("RODBC")
+require("dplyr")
+require("plyr")
+inMDB <- odbcConnect("")
+Headers <- sqlFetch(inMDB, "")
+Density <- sqlFetch(inMDB, "")
+SF <- sqlFetch(inMDB, "")
+odbcCloseAll()
+diameters <- inner_join(Headers, SF, by = c("Key" = "HKey")) %>% 
+  filter(StatArea == 19, Year %in% c(2012, 2014, 2016, 2018, 2020, 2022)) %>% 
+  select(Diameter, Year)
+  GSU_TD_Area19_percent <-
+    ggplot(diameters, aes(x = Diameter)) + xlim(0, 100) +
+    geom_histogram(
+      aes(y = stat(density)),
+      binwidth = 1,
+      colour = "black",
+      fill = "gray95",
+      size = 0.025
+    ) +
+    scale_y_continuous(labels = scales::percent_format(accuracy = 0.5, suffix = "")) + geom_vline(
+      xintercept = 55,
+      linetype = "dashed",
+      color = "black",
+      size = 0.5
+    ) + facet_wrap(~ Year, nrow = 4)
+ 
+  
+  #### Histogram theme ####
+  UrchinHistoTheme <-
+    theme(
+      panel.grid = element_blank(),
+      panel.background = element_rect(fill = "white"),
+      axis.line.y.left = element_line(colour = "black", size = 0.1),
+      axis.line.x.bottom = element_line(colour = "black", size = 0.1),
+      panel.border = element_rect(
+        colour = "black",
+        fill = NA,
+        size = 0.1
+      )
+    ) + theme(
+      strip.text.x = element_text(size = 10),
+      strip.background.x = element_rect(colour = "black", fill = "gray95")
+    ) + theme(plot.title = element_text(hjust = 0.5)) +
+    theme(axis.text = element_text(size = 10)) +
+    theme(axis.title = element_text(size = 10)) +
+    theme(axis.title.x = element_text(size = 10) +
+            theme(axis.title.y = element_text(size = 10))) +
+    theme(aspect.ratio = 0.45)
+  
+  #### calculating n for each facet ####
+  #summarize sample size (n) for each facet, i.e. Year
+  Nlabel <-
+    ddply(.data = diameters,
+          .(Year),
+          summarize,
+          n = paste("n =", length(Diameter)))
+  
+  #### Final plot ####
+  GSU_TD_Area19_percent_polish <-
+    GSU_TD_Area19_percent + UrchinHistoTheme + ggtitle("PFMA 19") +  labs(x = en2fr("Test Diameter (mm)",FALSE), y = en2fr("Frequency (%)",FALSE)) + theme(plot.title = element_text(hjust = 0.5)) + theme(axis.text = element_text(size = 10)) + theme(axis.title = element_text(size = 10)) + theme(axis.title.x = element_text(size = 10) + theme(axis.title.y = element_text(size = 10))) + geom_text(
+      data = Nlabel,
+      aes(x = 90, y = Inf, label = n),
+      size = 3,
+      colour = "black",
+      inherit.aes = FALSE,
+      parse = FALSE,
+      vjust = 1.5
+    )
+GSU_TD_Area19_percent_polish
+#### Saving the polished plot ####
+# This sizing leads to small almost square plots
+#ggsave("BioData_TD freq_PFMA19_CSASFig11.pdf.pdf", width = 3, height = 9)
+```
+\newpage
+
+## Harvest options
+
+This assessment updates previously published time series data and provides new harvest options for the 2021-2022 to 2023-2024 Green Sea Urchin fishery implementing the Bayesian biomass dynamic model used in the assessment of BC’s Green Sea Urchin stock since 2003 [@dfo2018a]. The model incorporates both fishery-dependent and fishery-independent data with separate analyses for Northeast Vancouver Island and Southeast Vancouver Island, producing maximum sustainable yield (MSY) posterior probability distributions for each region. The allocation of harvest options to each PFMA within a region is based on the proportion of total historic landings from each PFMA from the 1995-1996 to 2019-2020 fishing seasons (Table 1).
+
+This assessment takes into account the recent fishery expansion back into historically fished PFMAs in both regions (PFMA 11 in Northeast Vancouver Island and PFMA 20 in Southeast Vancouver Island). Fishery-independent survey data from PFMA 12 along with total catch and CPUE data from PFMAs 11, 12, 13 were included as inputs to the model for Northeast Vancouver Island. Similarly, fishery-independent survey data from PFMA 19 along with total catch and CPUE data from PFMAs 18, 19, 20 were included as inputs to the model for Southeast Vancouver Island. Catch and CPUE data from PFMAs 11 and 20 were included in the model in this assessment and the 2018 assessment [@dfo2018a], whereas previous assessments included total catch and CPUE data from PFMAs 12 and 13 only for Northeast Vancouver Island and PFMAs 18 and 19 only for Southeast Vancouver Island. See @dfo2014 and @waddell2010 for more detailed descriptions of model inputs.
+
+The median MSY estimates (median of the estimated posterior probability distribution for MSY) for each region are uncertain and could be any MSY as represented by the posterior probability distributions from the Bayesian model. The harvest options represent various reductions from the estimated median of the MSY posterior probability distribution, along with the probabilities of harvest options exceeding the true MSY (Table 1).
+
+The median MSY for Northeast Vancouver Island was estimated at 308 metric tonnes (t) in the current stock status update, compared to median MSY estimates of 306 t, 302 t and 310 t in 2013, 2016 and 2018, respectively @dfo2018a. The median MSY for Southeast Vancouver Island was estimated at 98 t in the current stock status update, whereas in 2013, 2016 and 2018 median MSY estimates were 74 t, 76 t and 95 t, respectively @dfo2018a. From the 1995-1996 to 2019-2020 fishing seasons, PFMAs 11 and 20 were only harvested for 7 and 12 out of 25 seasons, respectively, and had relatively low landings during the few active fishing seasons, causing the harvest options to be relatively small.
+
+From the 2006-2007 through to the 2015-2016 fishing seasons, fishery managers kept the Green Sea Urchin commercial fishery quotas stable at 177.3 t in Northeast Vancouver Island and 25.5 t in Southeast Vancouver Island. The quotas were increased in the 2018-2021 IFMP [@dfo2018b] in both areas to 262.3 t. The 2018-2021 quota for Northeast Vancouver Island was 209.3 t while Southeast Vancouver Island was 52.7 t. If the same commercial fishery quotas are used for the next IFMP, the predicted probability that the quota exceeds the true MSY is 4.4% for Northeast Vancouver Island and 4.2% for Southeast Vancouver Island.
+
+\clearpage
+\newpage
+
+A. Northeast Vancouver Island
+
+```{r table1}
+library(kableExtra)
+library(csasdown)
+library(knitr)
+col.titles <- c("Percentage of median MSY", "PFMAs 11, 12 & 13", "PFMA 11", "PFMA 12", "PFMA 12", "$\\%$ Probability Harvest $\\geq$ Option true MSY")
+NEVI.tab <- data.frame(col1 = c(100, 90, 80, 70, 60, 50, 40, 30, 20, 10),
+                       col2 = c(308.1, 277.2, 246.4, 215.6, 184.8, 154.0, 123.2, 92.4, 61.6, 30.8),
+                       col3 = c(1.2, 1.1, 1.0, 0.9, 0.7, 0.6, 0.5, 0.4, 0.2, 0.1),
+                       col4 = c(187.7, 168.9, 150.2, 131.4, 112.6, 93.8, 75.1, 56.3, 37.5, 18.8),
+                       col5 = c(119.1, 107.2, 95.3, 83.3, 71.4, 59.5, 47.6, 35.7, 23.8, 11.9),
+                       col6 = c(50.0, 31.8, 15.7, 5.8, 1.5, 0.3, 0.1, 0.0, "<0.001", "<0.001"))
+#colnames(NEVI.tab) <- col.titles
+# csasdown::csas_table(NEVI.tab,
+#                      format = "latex",
+#                      longtable = TRUE,
+#                      escape = FALSE,
+#                      bold_header = FALSE,
+#                      align = c("c","c","c","c","c","c"),
+#                      caption = "Harvest options in metric tonnes as percentages of the estimated median Maximum Sustainable Yield (MSY), the percent probability that the option may be greater than or equal to the true MSY, and allocation of the total harvest to each of the two management regions and open Pacific Fisheries Management Areas: A. Northeast Vancouver Island: PFMAs 11, 12 and 13; and B. Southeast Vancouver Island: PFMAs 18, 19 and 20.") %>%
+#   
+#   kableExtra::kable_styling(font_size = 8) %>%
+#   add_header_above(c(" "= 1,"Harvest Options (tonnes)"= 4, " "= 1))
+# 
+# 
+# csasdown::csas_table(head(iris),
+#                      format = "latex")
+tabA <- kable(NEVI.tab,
+             align = c("c", "r", "r", "r", "r", "r"),
+             format = "latex",
+             booktabs = T,
+             col.names = c("Percentage of median MSY",
+                           "PFMAs 11, 12 $\\&$ 13",
+                           "PFMA 11",
+                           "PFMA 12",
+                           "PFMA 13",
+                           "$\\%$ Probability Harvest Option $\\geq$ true MSY"),
+             escape = F,
+             linesep = "",
+             caption = "Harvest options in metric tonnes as percentages of the estimated median Maximum Sustainable Yield (MSY), the percent probability that the option may be greater than or equal to the true MSY, and allocation of the total harvest to each of the two management regions and open Pacific Fisheries Management Areas: A. Northeast Vancouver Island: PFMAs 11, 12 and 13; and B. Southeast Vancouver Island: PFMAs 18, 19 and 20.") %>% 
+ 
+  column_spec(1, width = "2.5cm") %>%
+  column_spec(2:5, width = "1.5cm") %>% 
+  column_spec(6, width = "3.5cm") %>% 
+  add_header_above(c("", "Harvest Options (tonnes)" = 4, "")) %>%
+  add_header_above(c("A. Northeast Vancouver Island" = 6), align = "l", bold = "T") %>% 
+   kable_styling(latex_options = "HOLD_position")
+tabA
+tabB <- kable(NEVI.tab,
+             align = c("c", "r", "r", "r", "r", "r"),
+             format = "latex",
+             booktabs = T,
+             col.names = c("Percentage of median MSY",
+                           "PFMAs 11, 12 $\\&$ 13",
+                           "PFMA 11",
+                           "PFMA 12",
+                           "PFMA 13",
+                           "$\\%$ Probability Harvest Option $\\geq$ true MSY"),
+             escape = F,
+             linesep = "") %>% 
+ 
+  column_spec(1, width = "2.5cm") %>%
+  column_spec(2:5, width = "1.5cm") %>% 
+  column_spec(6, width = "3.5cm") %>% 
+  add_header_above(c("", "Harvest Options (tonnes)" = 4, "")) %>%
+  add_header_above(c("B. Southeast Vancouver Island" = 6), align = "l", bold = "T") %>% 
+   kable_styling(latex_options = "HOLD_position")
+tabB
+```
+
+
+B. Southeast Vancouver Island
+
+## Sources of uncertainty
+
+There are uncertainties that are generally related to the data and the simplifying assumptions necessary to develop mathematical and statistical models that are used to analyze the data.
+
+As with virtually all quantitative analyses, model error contributes to uncertainty. The estimation of MSY is based on a productivity model that carries inherent uncertainties. The production model lumps growth, reproduction, and mortality into one production function, ignoring interactions and temporal effects on these processes. This model represents a simplified approximation of the population dynamics, lacking some realism when compared to more complex fisheries models, such as age-structured models. For instance, the model assumes that surplus production (amount of increase in biomass of the stock) in any given year is related to the biomass in the previous year, without considering a time lag for larvae or juveniles to grow before contributing to the harvestable biomass (~2-4 years; @munk1992), and also implies a closed population. Therefore, MSY estimates need to be treated with some caution. Various harvest options were provided with associated probability that an adopted harvest option would be larger than the true MSY.
+
+An additional uncertainty relates to the way estimates of MSY are allocated among PFMAs within each region. The allocation among PFMAs (within a region) is based on the proportion that each PFMA contributed to landings from 1995-1996 to 2019-2020. This method carries a risk that a potential historic over- or under-exploitation may be perpetuated, or that some PFMAs may become more or less exploited than intended, if the Green Sea Urchin distributions and abundance change among areas over time.
+
+## Stock status and the Precautionary Approach
+
+In 2018, provisional Upper Stock Reference (USR) and Limit Reference points (LRP) were recommended for BCs Green Sea Urchin populations within the Northeast and Southeast Vancouver Island management regions [@dfo2018a]. The provisional LRP and USR were developed using fishery-independent data from two fished and highly productive management regions (PFMAs 12 and 19). At this time, whether they are appropriate for GSU along the entire BC coast is unknown.
+
+Briefly, the LRP is the level that harvest should not exceed, while the USR is the stock level at which harvest must be managed in order to avoid reaching the LRP [@dfo2009]. For further details, see [DFO's Fishery and Decision-Making Framework Incorporating the Precautionary Approach.](https://www.dfo-mpo.gc.ca/reports-rapports/regs/sff-cpd/precaution-eng.htm)
+
+The USR and LRP for BCs Green Sea Urchin stock are as follows:
+
+> USR = 0.9 urchins/m$^{2}$
+> LPR = 0.5*USR = 0.45 urchins/m$^{2}$
+Both of these stock reference points were implemented in 2018-2021 Integrated Fishery Management Plan (IFMP; @dfo2018b).
+
+The estimated mean density of legal-sized urchins in 2018 was 3.8 urchins/m$^{2}$ in PFMA 12 and 4.3 urchins/m$^{2}$ in PFMA 19 in 2020. This places the Green Sea Urchin stock in the Healthy Zone in both management regions. A full assessment (i.e., review of the assessment model) should occur if estimated mean density of legal-sized urchins within Northeast (PFMAs 11, 12 and 13) or Southeast (PMFAs 18, 19 and 20) Vancouver Island falls below the USR for a period of six consecutive years (two advice periods) or falls below the LRP, which ever comes first.
+
+The GSU population in BC is likely composed of one genetic stock, similar to Red Sea Urchins and Geoducks [@miller2006], but similar genetic studies have not been done to confirm this hypothesis. Due to the limited area where fishery-independent surveys are conducted, a coast wide assessment of stock status has not been possible. Future work will look at ways to expand the assessment more broadly.

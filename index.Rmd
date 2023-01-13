@@ -1,9 +1,6 @@
----
-title: |
-  "Insert title here; title must be exactly as it appears on the cover page, but in title case (*Latin species name*)"
-french_title: |
-  "Insérez le titre ici ; le titre doit être exactement comme il apparaît sur la page de couverture, mais en majuscule (*Nom latin de l'espèce*)."
-title_short: "Short title"
+title: "Stock status update and harvest options for the green sea urchin (*Strongylocentrotus droebachiensis*) fishery in British Columbia, 2021-2024"
+french_title: "Insérez le titre ici ; le titre doit être exactement comme il apparaît sur la page de couverture, mais en majuscule (*Nom latin de l'espèce*)."
+title_short: "Green Sea Urchin Stock Status Update and Harvest Options"
 year: 2022
 month: Month
 french_month: Mois
@@ -11,8 +8,8 @@ report_number: 999 # This *must* be numeric! E.g., not `nnn`.
 approver: |
   Approver Name\
   Regional Director
-approval_year: 20XX
-approval_month: Month
+approval_year: 20xx
+approval_month: Month  
 approval_day: 01
 work_done_year: 20XX
 work_done_month: Month
@@ -30,7 +27,7 @@ output:
    # will remain between compilations. If true, your changes will be lost when you compile
    copy_sty: true
    # line_nums is a toggle to show line numbers on the left side of the page. 
-   line_nums: true
+   line_nums: false
    # line_nums_mod represents showing every Nth line if line_nums is true
    line_nums_mod: 1
    # draft_watermark is a toggle to show/not show a DRAFT watermark across every page
@@ -56,12 +53,16 @@ knit: (function(input, ...) {
       })
 site: bookdown::bookdown_site
 link-citations: true
-bibliography: bib/refs.bib
+bibliography: bib/GSUrefs.bib
 lot: true
 lof: true
 # Any extra LaTeX code for the header:
+extra_dependencies: ["float"]
+#header-includes:
+
+
 # header-includes:
-# - \usepackage{tikz}
+# - \usepackage{tikz} 
 ---
 
 ```{r setup, echo=FALSE, cache=FALSE, message=FALSE, results='hide', warning=FALSE}
@@ -106,7 +107,8 @@ opts_chunk$set(
 # add other packages here:
 library(dplyr)
 library(readr)
-library(tibble)
-library(rosettafish)
+#library(rosettafish)
 library(csasdown)
+library(xlsx)
 ```
+

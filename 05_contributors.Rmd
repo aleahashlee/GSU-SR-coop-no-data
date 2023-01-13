@@ -5,8 +5,13 @@ Mandatory section and title.
 ```{r, echo=FALSE, include=FALSE}
 contributors <- tibble::tribble(
   ~Name,          ~Affiliation,
-  "Jane Smith",   "DFO Science, Pacific Region",
-  "John Smith",   "DFO Science, Maritimes Region",
+  "Christine Hansen",   "DFO Science, Pacific Region",
+  "Lyanne Curtis",   "DFO Science, Pacific Region (lead)",
+  "Janet Lochead", "DFO Science, Pacific Region",
+  "Erin Wylie", "DFO Fisheries Management, Pacific Region",
+  "Zane Zhang", "DFO Science, Pacific Region",
+  "Roger Kanno", "DFO Fisheries Management, Pacific Region",
+  "Amy Ganton", "DFO Fisheries Management, Pacific Region"
 )
 ```
 

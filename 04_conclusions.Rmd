@@ -1,4 +1,15 @@
 # Conclusions
 
-Mandatory section and title.
+Green Sea Urchins remain a small but important dive fishery in BC. The fishery suffered from low market demand from 2004 to 2012, but landings increased in subsequent years. The TAC in the 2017-2018 and 2018-2019 fishing seasons were almost fully achieved, reflecting improvements in, or recovery of market demand. The slight decline in landings during the 2019-2020 season may reflect limited roe quality. Concurrent with the rebound in market demand, the most recent Green Sea Urchin densities, observed in 2018 and 2020 during PFMA 12 and 19 surveys, were among the highest observed since the beginning of the time series (1995-2018 for PFMA 12; 2008-2020 in PFMA 19). Based on the survey derived estimated mean density of legal-sized Green Sea Urchins within PFMAs 12 and 19, the current evaluation of the Green Sea Urchin stock relative to the USR and LRP, places both the Northeast and the Southeast Vancouver Island management regions in the Healthy Zone.
 
+# Advice
+
+1. Mean legal-size density was 3.8 urchins/m$^{2}$ in PFMA 12 in 2018 and 4.3 urchins/m$^{2}$ in PFMA 19 in 2020, indicating the Green Sea Urchin stock is above the provisional USR in both the Northeast (PFMAs 11, 12, 13) and Southeast (PFMAs 18, 19, 20) regions of Vancouver Island.
+
+2. Harvest options developed using a Bayesian biomass dynamic model are provided in Table 1 for both Northeast Vancouver Island (PFMAs 11, 12, 13) and Southeast Vancouver Island (PFMAs 18, 19, 20). The risks associated with the harvest options are defined in Table 1 as the probabilities that the harvest options are greater than or equal to the true MSY.
+
+3. Data from all surveys have been analyzed and the recent trends in the local populations and population structure are presented in the “Trends in Populations and Population Structure” section.
+
+4. Uncertainties in the data and methods were identified and presented in the “Sources of Uncertainty” section.
+
+5. The PFMA 12 and PFMA 19 fishery-independent surveys should be continued on a regular basis to provide a fishery independent time-series of density estimates for monitoring Green Sea Urchin population trends
